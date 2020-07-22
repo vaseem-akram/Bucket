@@ -19,7 +19,7 @@ def retbanner(host,port):
 
 def main():
     
-    host=input('Enter the Host ip:  ')
+    host=input('Enter the Target ip:  ')
     print('the ip you entered'+host,end='')
     hostname=socket.gethostbyaddr(host)
     print(hostname)
